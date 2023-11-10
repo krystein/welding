@@ -8,7 +8,6 @@ import instagram from "../../img/SVG/Instagram.svg";
 import facebook from "../../img/SVG/Facebook.svg";
 import twitter from "../../img/SVG/Twitter.svg";
 import music from "../../img/SVG/Vector.svg";
-import email from "../../img/SVG/Email.svg";
 import location from "../../img/SVG/Location.svg";
 import call from "../../img/SVG/Call.svg";
 
@@ -27,32 +26,32 @@ const Foot = () => {
                 <img src={Img} alt="" />
               </Link>
               <h5>
-                Dominion City <br />
-                New York
+                IK'S EZINWANNE <br />
+                NIG. LTD.
               </h5>
             </Logo>
             <div>
               <p>
-                Dominion City Church of New York is a non-denominational church
-                located in New York.
+                KM 17 Aba Express Road Opp. Total Filing Station Port Harcourt
               </p>
             </div>
           </div>
           <div className="grid-1" style={{ gap: "10px" }}>
-            <div>
-              <img src={email} alt="" className="img" />
-              <p style={{ fontSize: "13px" }}>info@dominioncitynewyork.org</p>
-            </div>
+            
             <div>
               <img src={location} alt="" className="img" />
               <p style={{ fontSize: "13px" }}>
-                183-16 Horace Harding Expressway <br />
-                ,2nd Floor Fresh Meadows, NY 11366
+              KM 17 Aba Express Road Opp<br />
+                ,Total Filing Station Port Harcour
               </p>
             </div>
             <div>
               <img src={call} alt="" className="img" />
-              <p style={{ fontSize: "13px" }}>(929) 500-7935</p>
+              <p style={{ fontSize: "13px" }}>+2348036729799</p>
+            </div>
+            <div>
+              <img src={call} alt="" className="img" />
+              <p style={{ fontSize: "13px" }}>+2348036729799</p>
             </div>
           </div>
           <div className="d-flex" style={{ gap: "20px" }}>
@@ -70,7 +69,7 @@ const Foot = () => {
           </div>
           <div>
             <h6 style={{ fontSize: "13px" }}>
-              Copyright © 2022 Dominion City New York . All Rights Reserved.
+              Copyright © 2023 krystein . All Rights Reserved.
             </h6>
           </div>
         </div>
