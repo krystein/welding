@@ -6,6 +6,8 @@ import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Index from "./components/index";
 import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import DragDropImageLoader from "./page/dragdrop";
+import ImageViewer from "./page/ImageGallery";
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Routes>
         <Route exact path="/" element={<Index />}></Route>
+        <Route path="/dragdrop" element={<DragDropImageLoader />}></Route>
+        <Route path="/ImageGallery" element={<ImageViewer />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

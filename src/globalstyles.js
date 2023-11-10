@@ -11,9 +11,7 @@ html, body{
     overflow-x: hidden;
     scroll-padding: 50px;
     scroll-behavior: smooth;
-    background-color: #000;
 }
-
 
 `;
 

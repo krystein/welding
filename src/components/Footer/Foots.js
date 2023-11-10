@@ -51,7 +51,7 @@ const Foot = () => {
             </div>
             <div>
               <img src={call} alt="" className="img" />
-              <p style={{ fontSize: "13px" }}>+2348036729799</p>
+              <p style={{ fontSize: "13px" }}>+2348154600838</p>
             </div>
           </div>
           <div className="d-flex" style={{ gap: "20px" }}>
