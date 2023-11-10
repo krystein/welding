@@ -22,12 +22,14 @@ const ImageViewer = ({reloadGallery}) => {
 
   return (
     <div className="container mt-4">
+        <div className="row">
             {imageUrls.map((imageUrl, index) => (                
             <div  key={index} className="col-sm-3 col-md-3 col-lg-3 p-2 card">
               <img key={index} src={imageUrl.url} alt={`${index}`} className="img-fluid"/>
               <p style={{color: "#000", fontWeight: 400}}>#dynamicImage{index}</p>
             </div>
             ))}
+            </div>
     </div>
   );
 };
