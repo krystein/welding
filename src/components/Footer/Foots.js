@@ -25,9 +25,9 @@ const Foot = () => {
             <div>
               <img src={location} alt="" className="img" />
               <p style={{ fontSize: "13px" }}>
-                KM 17 Aba Express Road Opp
+                NO 17 Aba Express Road Opp
                 <br />
-                ,Total Filing Station Port Harcour
+                ,Total Filing Station Port Harcourt
               </p>
             </div>
             <div>
