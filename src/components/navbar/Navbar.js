@@ -71,8 +71,8 @@ const Navbar = ({ toggle }) => {
       <NavMenu>
         {menuData.map((item, index) => {
           return (
-            <Link to={item.link} style={{ textDecoration: "none" }}>
-              <NavMenuLink key={index}>{item.title}</NavMenuLink>
+            <Link key={index} to={item.link} style={{ textDecoration: "none" }}>
+              <NavMenuLink href={item.link} key={index}>{item.title}</NavMenuLink>
             </Link>
           );
         })}

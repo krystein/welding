@@ -5,7 +5,7 @@ display: flex;
 justify-content: center;
 padding: 100px 0;
 color: #4d4544;
-background-color: #fff;
+background-color: whitesmoke;
 
 `;
 
@@ -18,10 +18,6 @@ flex-direction: column;
 export const AboutH1 = styled.div`
 font-size: 1.3rem;
 font-style: italic;
+line-height: 3rem;
 
-span{
-    font-size: 6rem;
-    line-height: 0;
-    margin-bottom: 15px;
-}
 `;

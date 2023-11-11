@@ -36,7 +36,7 @@ const Carousel = () => {
 
 
   return (
-    <div className='container'>
+    <div className='container my-5' id='works'>
           <div className='d-flex justify-content-between p-2'>
             <h3>Images</h3>
       <Link to="/ImageGallery"><button className='btn btn-primary'>more</button></Link>

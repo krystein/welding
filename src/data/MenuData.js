@@ -1,6 +1,6 @@
 export const menuData = [
   { title: "About", link: "/#About" },
-  { title: "Works", link: "/#Pay_with_Itump" },
-  { title: "Teams", link: "/#Company" },
+  { title: "Works", link: "/#works" },
+  { title: "Teams", link: "/#teams" },
   { title: "contact", link: "/#Contact" },
 ];

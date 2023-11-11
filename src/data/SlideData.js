@@ -1,6 +1,6 @@
 import Imageone from '../img/img1.JPG';
 import ImageTwo from '../img/img2.JPG';
-import ImageThree from '../img/img3.JPG';
+import ImageThree from '../img/pic7.JPG';
 import ImageFour from '../img/img4.jpg';
 import ImageFive from '../img/img5.JPG';
 import Img from "../img/pic10.JPG";

@@ -11,17 +11,17 @@ import ImageViewer from "./page/ImageGallery";
 
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [open, setopen] = useState(false);
 
   const toggle = () => {
-    setIsOpen(!isOpen);
+    setopen(!open);
   };
 
   return (
     <BrowserRouter>
       <GlobalStyle />
       <Navbar toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Dropdown open={open} toggle={toggle} />
       <Routes>
         <Route exact path="/" element={<Index />}></Route>
         <Route path="/dragdrop" element={<DragDropImageLoader />}></Route>

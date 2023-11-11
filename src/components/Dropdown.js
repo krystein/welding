@@ -13,10 +13,10 @@ const DropdownContainer = styled.div`
   background: #08111c;
   display: grid;
   align-items: center;
-  top: ${({ isOpen }) => (isOpen ? "0" : "-110%")};
+  top: ${({ open }) => (open ? "0" : "-110%")};
   bottom: 0;
   transition: 0.3s ease-in-out;
-  opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
+  opacity: ${({ open }) => (open ? "1" : "0")};
 `;
 
 const Icon = styled.div`
@@ -91,9 +91,9 @@ const BtnWarp = styled.div`
   }
 `;
 
-const Dropdown = ({ isOpen, toggle }) => {
+const Dropdown = ({ open, toggle }) => {
   return (
-    <DropdownContainer isOpen={isOpen}>
+    <DropdownContainer open={open}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
@@ -101,7 +101,7 @@ const Dropdown = ({ isOpen, toggle }) => {
         <DropdownMenu>
           {menuData.map((item, index) => {
             return (
-              <Link to={item.link} style={{ textDecoration: "none" }}>
+              <Link key={index} to={item.link} style={{ textDecoration: "none" }}>
                 <DropdownLink key={index} onClick={toggle}>
                   {item.title} <FaGreaterThan style={{ fontSize: "14px" }} />
                 </DropdownLink>
